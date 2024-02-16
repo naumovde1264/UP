@@ -1,0 +1,1017 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit ProfessionalEducation' Language: 'ru' Physical Memory: 32668 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Users/naumov.de1264/My project (1)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61520
+Successfully changed project path to: D:/Users/naumov.de1264/My project (1)
+D:/Users/naumov.de1264/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13540] Host "[IP] 192.168.149.60 [Port] 0 [Flags] 2 [Guid] 2762472449 [EditorId] 2762472449 [Version] 1048832 [Id] WindowsEditor(7,Com409-R5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13540] Host "[IP] 192.168.149.60 [Port] 0 [Flags] 2 [Guid] 2762472449 [EditorId] 2762472449 [Version] 1048832 [Id] WindowsEditor(7,Com409-R5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/naumov.de1264/My project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005617 seconds.
+- Loaded All Assemblies, in  0.294 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.218 seconds
+Domain Reload Profiling: 511ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (83ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (108ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (218ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (169ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (115ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\naumov.de1264\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\naumov.de1264\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.493 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.421 seconds
+Domain Reload Profiling: 913ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (421ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3528.
+Memory consumption went from 114.2 MB to 114.2 MB.
+Total: 2.980500 ms (FindLiveObjects: 0.281200 ms CreateObjectMapping: 0.311100 ms MarkObjects: 2.265300 ms  DeleteObjects: 0.122000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 163415.807068 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(4c262c1c72d4d6347a61513bab9dc74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(4c262c1c72d4d6347a61513bab9dc74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca6500eca4b460ad344cd039da72b01') in 0.002361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3528.
+Memory consumption went from 65.4 MB to 65.4 MB.
+Total: 2.652300 ms (FindLiveObjects: 0.232100 ms CreateObjectMapping: 0.224500 ms MarkObjects: 2.180300 ms  DeleteObjects: 0.014700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.193367 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta.obj
+  artifactKey: Guid(00f0f2894fcab0e4cb25a4b2e8504108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta.obj using Guid(00f0f2894fcab0e4cb25a4b2e8504108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10e4f5a87b88a180f39e39562e39cd9') in 4.604916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3292
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\naumov.de1264\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\naumov.de1264\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.327 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 948ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (622ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (283ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3575.
+Memory consumption went from 119.3 MB to 119.3 MB.
+Total: 2.593400 ms (FindLiveObjects: 0.246900 ms CreateObjectMapping: 0.202900 ms MarkObjects: 2.105200 ms  DeleteObjects: 0.037800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 88.944350 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_0.png
+  artifactKey: Guid(b5bea997378e0e348a223fef2d4b06a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_0.png using Guid(b5bea997378e0e348a223fef2d4b06a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622c46209ba55db4f399bf43d82b0188') in 0.052660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_42.png
+  artifactKey: Guid(7a90f168bd946a54cb86d32baddd022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_42.png using Guid(7a90f168bd946a54cb86d32baddd022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218f305ebb1fa6e0623ef40113da1f10') in 0.009922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_105.png
+  artifactKey: Guid(5064d446ea3bbde4e97ce5eaeccb30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_105.png using Guid(5064d446ea3bbde4e97ce5eaeccb30c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f9240e318ad15fd646e1e53c0ca593') in 0.008306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_88.png
+  artifactKey: Guid(215f73179821eb84f8b0215c9f3021f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_88.png using Guid(215f73179821eb84f8b0215c9f3021f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015ae2cbc9d9b19e0daed053d9df1d61') in 0.010490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_63.png
+  artifactKey: Guid(a8ea9fc8d6e7bc74a97245bd26a5e3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_63.png using Guid(a8ea9fc8d6e7bc74a97245bd26a5e3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239d36669afcf973dd92c71e451ca53d') in 0.007929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_17.png
+  artifactKey: Guid(eceff9772e6e72b48883ac111a02853d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_17.png using Guid(eceff9772e6e72b48883ac111a02853d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d3587f524349ad621fad4eeaa3d6ab') in 0.027415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_7.png
+  artifactKey: Guid(265878ddc28975540a0dc29c66950f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_7.png using Guid(265878ddc28975540a0dc29c66950f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57806014582eabcdf6c584ef455acb4d') in 0.008009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_44.png
+  artifactKey: Guid(ccfec8dcc4f505846bab09f8c827dabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_44.png using Guid(ccfec8dcc4f505846bab09f8c827dabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaee1b00f8d245677121ac3d0beff93e') in 0.011046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_110.png
+  artifactKey: Guid(95edbc04e65e0a540b0cf51650880a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_110.png using Guid(95edbc04e65e0a540b0cf51650880a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072164b342590caf69b842f4ff5bd4ba') in 0.013435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_53.png
+  artifactKey: Guid(84e2137e409f50b42ac138dc309b671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_53.png using Guid(84e2137e409f50b42ac138dc309b671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5a47002587643a8a26162b7279c52c') in 0.009955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_97.png
+  artifactKey: Guid(8497c5961e4b43a47b362fb9b3e6062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_97.png using Guid(8497c5961e4b43a47b362fb9b3e6062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ed9aa7cc9953fd2ca711f217788aa9') in 0.010760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_15.png
+  artifactKey: Guid(01d495a6b54d4f2459ec2bcac8fbb0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_15.png using Guid(01d495a6b54d4f2459ec2bcac8fbb0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9925debced90d2fbae9c0833295d0773') in 0.011438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_41.png
+  artifactKey: Guid(aea2557406e8f0140b33630d7c54631e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_41.png using Guid(aea2557406e8f0140b33630d7c54631e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae8f3e59220acb27d081889fd5c1c38') in 0.010602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_12.png
+  artifactKey: Guid(7d95a9c4bfe95d241bd6498e873090fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_12.png using Guid(7d95a9c4bfe95d241bd6498e873090fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc4e38f56532b92da36dff39c3b0a43') in 0.009572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_96.png
+  artifactKey: Guid(a4e2374e5a6afc34a9181258a96efe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_96.png using Guid(a4e2374e5a6afc34a9181258a96efe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0941786763430d30251fbecf33362c') in 0.010731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_20.png
+  artifactKey: Guid(f8c32e2232e6cfb4da38ea34c821f0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_20.png using Guid(f8c32e2232e6cfb4da38ea34c821f0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6982d12cdb8e9ce08e72bdc48153a9') in 0.008375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_5.png
+  artifactKey: Guid(c08792e5d8482934f9d6c7ce82846bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_5.png using Guid(c08792e5d8482934f9d6c7ce82846bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d2d2966a1e1bf6a3373c85d39525bd') in 0.008486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_126.png
+  artifactKey: Guid(01025aba8f336b644a4c0d7f10ac298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_126.png using Guid(01025aba8f336b644a4c0d7f10ac298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108c6f20bb5632cb341f7a54b776faef') in 0.008365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_6.png
+  artifactKey: Guid(fdc9a8bf36dc8c840aa742179cf4d0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_6.png using Guid(fdc9a8bf36dc8c840aa742179cf4d0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a248c74105eff97b8e514eddaf38bc') in 0.007434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_39.png
+  artifactKey: Guid(5fede4961891ddd4c9575aa19f2c71dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_39.png using Guid(5fede4961891ddd4c9575aa19f2c71dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03716b10cf4d111d88542caca9dbd9b4') in 0.007547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_98.png
+  artifactKey: Guid(d370ac69dd754804b9a9257a8ca8a0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_98.png using Guid(d370ac69dd754804b9a9257a8ca8a0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015a20511f8c55d81595d396129c6807') in 0.008125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_104.png
+  artifactKey: Guid(691a8a8682f61584093a51c8c341f6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_104.png using Guid(691a8a8682f61584093a51c8c341f6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8363af4a31ea61de418fc1b945f6e1c') in 0.007662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_37.png
+  artifactKey: Guid(833112adf5aaecf4fa2c3adec6502b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_37.png using Guid(833112adf5aaecf4fa2c3adec6502b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f75051e9bd8d567ff222dd2855663c8') in 0.008205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_48.png
+  artifactKey: Guid(33a4f762068fcac45bc7e5dc2a8b5fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_48.png using Guid(33a4f762068fcac45bc7e5dc2a8b5fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ecdaf5c02afdfd64d937d81fcc0f6f') in 0.008242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_66.png
+  artifactKey: Guid(16513c6b03074204582cff12c147c50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_66.png using Guid(16513c6b03074204582cff12c147c50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1374941130789f2571646321dac7632') in 0.007275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_70.png
+  artifactKey: Guid(460c1488a531b7146a969e5852f772c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_70.png using Guid(460c1488a531b7146a969e5852f772c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d76ef12914938f1f88668bf833c892e') in 0.008912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_72.png
+  artifactKey: Guid(fe09dc7d2219a7e42b97afa3362f544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_72.png using Guid(fe09dc7d2219a7e42b97afa3362f544b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051aa1bac0caae0ad7da82c7608c31df') in 0.008331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_43.png
+  artifactKey: Guid(3fd11f9c9f99bae42b6ef936a709fae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_43.png using Guid(3fd11f9c9f99bae42b6ef936a709fae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dd27d8a4c7f72d01549556dd1bbd2b') in 0.008780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_118.png
+  artifactKey: Guid(dd7f776a7b1371a46a8fd52e76496b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_118.png using Guid(dd7f776a7b1371a46a8fd52e76496b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d5ef7944b5764a104bf6f18626552d') in 0.008217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_19.png
+  artifactKey: Guid(ed6b05d84cb3ba94495cce4a45f5fb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_19.png using Guid(ed6b05d84cb3ba94495cce4a45f5fb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eda3df78ba5c168ecfe1da50c2104e9') in 0.008322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_78.png
+  artifactKey: Guid(6322193c41edb22478770b1dba280642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_78.png using Guid(6322193c41edb22478770b1dba280642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9a3fdfea5622d6c52212ccec765d27') in 0.008067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_117.png
+  artifactKey: Guid(77454b084dde32940b50257da82569d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_117.png using Guid(77454b084dde32940b50257da82569d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1524f6ec234acd9ef666f3f108750136') in 0.008783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_32.png
+  artifactKey: Guid(b6ee0d30fb8a07e4eb16a87cc8400da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_32.png using Guid(b6ee0d30fb8a07e4eb16a87cc8400da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef66236473bc13a643c7954c243138a') in 0.007559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_79.png
+  artifactKey: Guid(c48cde952b7f5ee4c86275d6c8175919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_79.png using Guid(c48cde952b7f5ee4c86275d6c8175919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c23d7b0ec0d19e0159266b7468db340') in 0.008623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_69.png
+  artifactKey: Guid(af110ac6aa1c5d44f97bc0704fed0bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_69.png using Guid(af110ac6aa1c5d44f97bc0704fed0bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b12f93045029da7593c73e81e329191') in 0.024501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_21.png
+  artifactKey: Guid(a00cabbebe538e740afbd650a0edae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_21.png using Guid(a00cabbebe538e740afbd650a0edae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66b8e0809c1ded1b4485c24a74042a3') in 0.009386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_34.png
+  artifactKey: Guid(c16270d8d3bef2649af5f8b524fd6dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_34.png using Guid(c16270d8d3bef2649af5f8b524fd6dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39b6e87bfdee8a5c277fa08f06b3ad2') in 0.008403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_24.png
+  artifactKey: Guid(8ada8321fec94f24fb6af712351c33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_24.png using Guid(8ada8321fec94f24fb6af712351c33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8554e87af6afe44dfe760c884e15040e') in 0.008484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_45.png
+  artifactKey: Guid(a067fa920c7b2e5428f824d6dec7d06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_45.png using Guid(a067fa920c7b2e5428f824d6dec7d06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55a80911eba2b44240c9c0e4bf4428d') in 0.008857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_115.png
+  artifactKey: Guid(53e91726a10afd84b8e0e9b60cd20e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_115.png using Guid(53e91726a10afd84b8e0e9b60cd20e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e820f601b396cde77f0b6573cdef5013') in 0.008738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_31.png
+  artifactKey: Guid(3a493f05563db1843b81fd0089252756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_31.png using Guid(3a493f05563db1843b81fd0089252756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147453948a80fb064fcc212f081dfb03') in 0.010753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_8.png
+  artifactKey: Guid(4310f2d8fc94e4146a855992dc512731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_8.png using Guid(4310f2d8fc94e4146a855992dc512731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99807f98198129d403afc65e13f11a5') in 0.009355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_10.png
+  artifactKey: Guid(08a2f50afe0a70849845c9e92cb6afe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_10.png using Guid(08a2f50afe0a70849845c9e92cb6afe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cf93a44f0a5a321e1795ad359df51d') in 0.007516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_35.png
+  artifactKey: Guid(da3943354744c7c49904deedc28a4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_35.png using Guid(da3943354744c7c49904deedc28a4679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b713105a64ecb664783991faeed97ccb') in 0.008295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_33.png
+  artifactKey: Guid(225d7d9f0d4f8434fa248bc11b49f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_33.png using Guid(225d7d9f0d4f8434fa248bc11b49f3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508edaf15ed7e9ee5f0d858e04cf873f') in 0.008154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_64.png
+  artifactKey: Guid(d9a12fb08ab42e54796e9de3a601f087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_64.png using Guid(d9a12fb08ab42e54796e9de3a601f087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8928d0e16b243d67449ae279f92a05ef') in 0.007553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_113.png
+  artifactKey: Guid(44634fb4bb8a5444a8128a5188195a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_113.png using Guid(44634fb4bb8a5444a8128a5188195a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c16262ff9b97526ce90b1cbd18c7728') in 0.007426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_128.png
+  artifactKey: Guid(48e90f1f3710dd446a53157fa3d9d567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_128.png using Guid(48e90f1f3710dd446a53157fa3d9d567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a899c21fc3b2c350d1571b83e0fe6e23') in 0.007985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_77.png
+  artifactKey: Guid(2d67cb660270e1e48b7fb69b6c9664a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_77.png using Guid(2d67cb660270e1e48b7fb69b6c9664a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7e0c505f8e791fff89cbf0d12f8821') in 0.009895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_52.png
+  artifactKey: Guid(9c63499e11743a24981ff04a2980399a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_52.png using Guid(9c63499e11743a24981ff04a2980399a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0c27d5845ef010f8e8d6601bea5410') in 0.008536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_114.png
+  artifactKey: Guid(5316bbd3d9a2a6943850ea26455090b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_114.png using Guid(5316bbd3d9a2a6943850ea26455090b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e1bd122a816846b9b95db9721223c0') in 0.007907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_102.png
+  artifactKey: Guid(eb5bcff9dcdf7924dba313c2d9ffc630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_102.png using Guid(eb5bcff9dcdf7924dba313c2d9ffc630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29aed1ee59e0034d0ade57866d06532e') in 0.008222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_16.png
+  artifactKey: Guid(af2aaabf4f5537345b6dcd69d19e447d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_16.png using Guid(af2aaabf4f5537345b6dcd69d19e447d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9477d25c02a8a550814a5d5439b96a') in 0.008039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_54.png
+  artifactKey: Guid(4b9f912f4d6481240a6bc4cfa126c91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_54.png using Guid(4b9f912f4d6481240a6bc4cfa126c91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d01c67f04f3991aae7fa68c4dbd71e') in 0.008304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_13.png
+  artifactKey: Guid(c59095c346622bc4fa42b19e2ce33fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_13.png using Guid(c59095c346622bc4fa42b19e2ce33fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b869e01e5b2f3efb3d3617195bd5616d') in 0.009417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_95.png
+  artifactKey: Guid(8c9ddc333ca20b241a9fbcf4a3a36679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_95.png using Guid(8c9ddc333ca20b241a9fbcf4a3a36679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c345b4740e6c467d27bc0ced3de073') in 0.007263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_50.png
+  artifactKey: Guid(967ffcdcf5692044d9d488e7afd4a210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_50.png using Guid(967ffcdcf5692044d9d488e7afd4a210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876f1b09122c7410a08e1e4940926eff') in 0.008252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_120.png
+  artifactKey: Guid(1cd7110cfb976b742be000b011a96c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_120.png using Guid(1cd7110cfb976b742be000b011a96c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c551f40c51e42d5e530866558f603381') in 0.008341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_125.png
+  artifactKey: Guid(0c755a3016039bb449f2aa01af51a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_125.png using Guid(0c755a3016039bb449f2aa01af51a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ee1a0287b1930852eef2eb5b6ae13d') in 0.008141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_60.png
+  artifactKey: Guid(63446e976fdb5e34e886ff2f54684e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_60.png using Guid(63446e976fdb5e34e886ff2f54684e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46097d5c5a25741aa9156ab8e66cdde7') in 0.008294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_11.png
+  artifactKey: Guid(73d74ad75a7df6f429de00fc710b6d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_11.png using Guid(73d74ad75a7df6f429de00fc710b6d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685134f4b5d8420854f962e1e1eee245') in 0.007926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_22.png
+  artifactKey: Guid(126a3225d04b93743b1075f02e978bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_22.png using Guid(126a3225d04b93743b1075f02e978bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26da59c1db9477218b5e13e6472c0fc') in 0.009493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_83.png
+  artifactKey: Guid(be1acf1f4db0e1b41b623873733533d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_83.png using Guid(be1acf1f4db0e1b41b623873733533d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989af06005ec6a25e4e9a44412f34b0d') in 0.007842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_3.png
+  artifactKey: Guid(f32d963590623c4409313399f1e345c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_3.png using Guid(f32d963590623c4409313399f1e345c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0259a733dd112c9c6d2866c85519d354') in 0.009751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_68.png
+  artifactKey: Guid(8f12e7d30f1e37e42930907170e33bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_68.png using Guid(8f12e7d30f1e37e42930907170e33bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a8bd8387175f3dfea613de4c3bc22c') in 0.007725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_87.png
+  artifactKey: Guid(4332cfd5bc674d445b9416d076e74e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_87.png using Guid(4332cfd5bc674d445b9416d076e74e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9731c070d2eeaafc41c75bef77426425') in 0.007892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.381519 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_133.png
+  artifactKey: Guid(591e247adcfe8e44b93ca5c069db39ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_133.png using Guid(591e247adcfe8e44b93ca5c069db39ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35924b073ef826064b0de40bf3e08a4c') in 0.023994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_143.png
+  artifactKey: Guid(677ba3d2698fd894287ea1d7d8246b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_143.png using Guid(677ba3d2698fd894287ea1d7d8246b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c984fe56a92ad618e4122a2252000a') in 0.017742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_146.png
+  artifactKey: Guid(74da6233850186c49a7cfcb5b3c4109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_146.png using Guid(74da6233850186c49a7cfcb5b3c4109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e28b4c6b1b9fcd748bec5c658a0eed0') in 0.019838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_144.png
+  artifactKey: Guid(be262c0718278e7459c6f6d7c58fe8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_144.png using Guid(be262c0718278e7459c6f6d7c58fe8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5335ce9b6d94cd94d08140c339cbc471') in 0.008698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_140.png
+  artifactKey: Guid(84eccfd57196c064d9f141a5d4fa1732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_140.png using Guid(84eccfd57196c064d9f141a5d4fa1732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1839c0ee1a097a9f7d2e5fca3882f33') in 0.009862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_139 вЂ” РєРѕРїРёСЏ.png
+  artifactKey: Guid(90ca46d4424ebf24cbbce67e6a99fedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_139 вЂ” РєРѕРїРёСЏ.png using Guid(90ca46d4424ebf24cbbce67e6a99fedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2571dcc081fa5fce1822785a3cf1c3a5') in 0.008528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_155.png
+  artifactKey: Guid(5d12c14c31b576242853095aaee304cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_155.png using Guid(5d12c14c31b576242853095aaee304cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b2fc482dd634e254716adfe2928291') in 0.009459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/mcdonalds_mds_v2beta_texture_153.png
+  artifactKey: Guid(301726fe19a9e9c4e9bec703c9ed6085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mcdonalds_mds_v2beta_texture_153.png using Guid(301726fe19a9e9c4e9bec703c9ed6085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdab8acd372bbbdca28a54e85d6a5a1b') in 0.008903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\naumov.de1264\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\naumov.de1264\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.333 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.618 seconds
+Domain Reload Profiling: 950ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (201ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (619ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3586.
+Memory consumption went from 119.3 MB to 119.3 MB.
+Total: 2.575300 ms (FindLiveObjects: 0.240800 ms CreateObjectMapping: 0.233400 ms MarkObjects: 2.060100 ms  DeleteObjects: 0.040400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\naumov.de1264\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Users\naumov.de1264\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.326 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.621 seconds
+Domain Reload Profiling: 946ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (199ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (622ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (295ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3589.
+Memory consumption went from 119.6 MB to 119.6 MB.
+Total: 2.533900 ms (FindLiveObjects: 0.238800 ms CreateObjectMapping: 0.184600 ms MarkObjects: 2.074600 ms  DeleteObjects: 0.035100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3675.194336 seconds.
+  path: Assets/Textures/Panels/Panel 1.mat
+  artifactKey: Guid(bf65cc9e5591a9b4daf0774b20171b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Panels/Panel 1.mat using Guid(bf65cc9e5591a9b4daf0774b20171b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86d847690069ae7cac9dc51a42b4bb4') in 0.076425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

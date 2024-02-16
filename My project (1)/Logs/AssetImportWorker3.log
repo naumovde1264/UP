@@ -1,0 +1,661 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unityfolder\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/diman/OneDrive/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/FNAM UNITY/My project (1)
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51597
+Successfully changed project path to: C:/Users/diman/OneDrive/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/FNAM UNITY/My project (1)
+C:/Users/diman/OneDrive/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/FNAM UNITY/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13816] Host "[IP] 192.168.0.107 [Port] 0 [Flags] 2 [Guid] 3333584567 [EditorId] 3333584567 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B7JFJVP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13816] Host "[IP] 192.168.0.107 [Port] 0 [Flags] 2 [Guid] 3333584567 [EditorId] 3333584567 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B7JFJVP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 23.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path D:/unityfolder/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/diman/OneDrive/Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»/FNAM UNITY/My project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4004 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'D:/unityfolder/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unityfolder/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unityfolder/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unityfolder/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unityfolder/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010495 seconds.
+- Loaded All Assemblies, in  1.086 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.834 seconds
+Domain Reload Profiling: 1918ms
+	BeginReloadAssembly (383ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (118ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (155ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (402ms)
+			TypeCache.Refresh (394ms)
+				TypeCache.ScanAssembly (361ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (834ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (697ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (144ms)
+			SetLoadedEditorAssemblies (51ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (15ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.194 seconds
+Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.764 seconds
+Domain Reload Profiling: 1956ms
+	BeginReloadAssembly (468ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (610ms)
+		LoadAssemblies (762ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (192ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (765ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (561ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (433ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.9 KB). Loaded Objects now: 3544.
+Memory consumption went from 122.5 MB to 122.4 MB.
+Total: 3.180500 ms (FindLiveObjects: 0.299400 ms CreateObjectMapping: 0.090800 ms MarkObjects: 2.673900 ms  DeleteObjects: 0.115100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17009.396478 seconds.
+  path: Assets/Textures/BlackMaterials/mcdonalds_mds_v2beta_texture_90.png
+  artifactKey: Guid(8a5b71a630e23c3489856999e388aa6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/BlackMaterials/mcdonalds_mds_v2beta_texture_90.png using Guid(8a5b71a630e23c3489856999e388aa6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd15fc2ea05877e63af9f45ab327bc8f1') in 0.260474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Textures/Cars/mcdonalds_mds_v2beta_texture_74.png
+  artifactKey: Guid(03bd9fd6575e05e47aa4699d8d36f750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Cars/mcdonalds_mds_v2beta_texture_74.png using Guid(03bd9fd6575e05e47aa4699d8d36f750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '44612593dab9b3e355daf8ec02d08b40') in 0.064190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Textures/BlackMaterials/New Material 2.mat
+  artifactKey: Guid(08f8e636877701d449be71115a70b48f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/BlackMaterials/New Material 2.mat using Guid(08f8e636877701d449be71115a70b48f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7c364c0fd5758bd1b890b161eb99036') in 0.061320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/Doors/Door1 4.mat
+  artifactKey: Guid(cc6020b09506b9a4e933a16a0271f915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Doors/Door1 4.mat using Guid(cc6020b09506b9a4e933a16a0271f915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8606392b9071b32c6e4a1ec7ce20e7b0') in 0.039360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000834 seconds.
+  path: Assets/Textures/mcdonalds_mds_v2beta_texture_47.png
+  artifactKey: Guid(de8f8b53f163c0d419e17c970f3adc19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/mcdonalds_mds_v2beta_texture_47.png using Guid(de8f8b53f163c0d419e17c970f3adc19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64562830c3e207e992fe389b34810be2') in 0.083266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Textures/BlackMaterials/New Material 4.mat
+  artifactKey: Guid(1767ab555c55dae45896620f43dff13a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/BlackMaterials/New Material 4.mat using Guid(1767ab555c55dae45896620f43dff13a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '565aa18192b28b7fdf6876ae4f2d507f') in 0.049215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textures/interier/mcdonalds_mds_v2beta_texture_140 вЂ” РєРѕРїРёСЏ.png
+  artifactKey: Guid(dd87e91e0cbcfbb4dbcb342e114525de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/interier/mcdonalds_mds_v2beta_texture_140 вЂ” РєРѕРїРёСЏ.png using Guid(dd87e91e0cbcfbb4dbcb342e114525de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0b39b7fe462b1bf82880977b99864c1') in 0.059463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Textures/interier/mcdonalds_mds_v2beta_texture_24.png
+  artifactKey: Guid(8ada8321fec94f24fb6af712351c33cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/interier/mcdonalds_mds_v2beta_texture_24.png using Guid(8ada8321fec94f24fb6af712351c33cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '85b980af0a981789dcdf2a79c3a562c8') in 0.063824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Textures/mcdonalds_mds_v2beta_texture_43.png
+  artifactKey: Guid(3fd11f9c9f99bae42b6ef936a709fae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/mcdonalds_mds_v2beta_texture_43.png using Guid(3fd11f9c9f99bae42b6ef936a709fae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89ddace30d2d313389c7e468fa867254') in 0.058262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Textures/Doors/mcdonalds_mds_v2beta_texture_60.png
+  artifactKey: Guid(63446e976fdb5e34e886ff2f54684e72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Doors/mcdonalds_mds_v2beta_texture_60.png using Guid(63446e976fdb5e34e886ff2f54684e72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da945f6fe0512ee1f1cf0af38574b245') in 0.052297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Textures/Doors/Door1.mat
+  artifactKey: Guid(85c473ca9df732747a48ab61d8a3e950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Doors/Door1.mat using Guid(85c473ca9df732747a48ab61d8a3e950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f94f307403d253c13c1784eb8288eb20') in 0.037474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/Cars/mcdonalds_mds_v2beta_texture_73.png
+  artifactKey: Guid(65e0e8c62ac5696408c6c0094b2c47f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Cars/mcdonalds_mds_v2beta_texture_73.png using Guid(65e0e8c62ac5696408c6c0094b2c47f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '50bb3b3d59c08d5b5c4d014590e9a603') in 0.050995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Textures/BlackMaterials/mcdonalds_mds_v2beta_texture_61.png
+  artifactKey: Guid(0e2f58641d8d68645be466c74bc95fcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/BlackMaterials/mcdonalds_mds_v2beta_texture_61.png using Guid(0e2f58641d8d68645be466c74bc95fcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6489cef5f7d09bfa65ec59b957dd4088') in 0.065995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Textures/interier/mcdonalds_mds_v2beta_texture_48.png
+  artifactKey: Guid(33a4f762068fcac45bc7e5dc2a8b5fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/interier/mcdonalds_mds_v2beta_texture_48.png using Guid(33a4f762068fcac45bc7e5dc2a8b5fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd8124704183de6147b2a26ae7c9a7a5') in 0.042772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Textures/Cars/Truck.mat
+  artifactKey: Guid(257735549115d6049b4381daec0e8edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Cars/Truck.mat using Guid(257735549115d6049b4381daec0e8edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7fdea9cb60958477074af37aaba39f7d') in 0.051959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Textures/interier/New Material 12.mat
+  artifactKey: Guid(69c24ac4c60b3e647aeac7b80c814510) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/interier/New Material 12.mat using Guid(69c24ac4c60b3e647aeac7b80c814510) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9dad71a9adc7f96c9fab5a5c448decdb') in 0.068459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Textures/interier/New Material 7.mat
+  artifactKey: Guid(b1ab03522786cce4ebbec898cc2b82fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/interier/New Material 7.mat using Guid(b1ab03522786cce4ebbec898cc2b82fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eff9b1674b9b298fd61ff66e9915db2b') in 0.013894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/Kitchen/New Material 6.mat
+  artifactKey: Guid(7d24f34e85813a54eb8bbbb8119e2603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Kitchen/New Material 6.mat using Guid(7d24f34e85813a54eb8bbbb8119e2603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eff53c194ce4d2f5744e44f73f21ac45') in 0.012014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/interier/New Material 14.mat
+  artifactKey: Guid(bc5c406adee05fb4cafe629e5571c2b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/interier/New Material 14.mat using Guid(bc5c406adee05fb4cafe629e5571c2b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b96a69979ca3500ff1eaeeeac9c8918') in 0.062562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Textures/interier/New Material 6.mat
+  artifactKey: Guid(735cbfd0cf3a0c6438958867384ed291) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/interier/New Material 6.mat using Guid(735cbfd0cf3a0c6438958867384ed291) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3fba440b1eb887fdb09b441eea5e4464') in 0.052052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Assets/Textures/Kitchen/mcdonalds_mds_v2beta_texture_152.png
+  artifactKey: Guid(0288f18ce9335934c8028ca1a7538c63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Kitchen/mcdonalds_mds_v2beta_texture_152.png using Guid(0288f18ce9335934c8028ca1a7538c63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '041904d8b0172b727f9b2e90f8198b67') in 0.081834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/BlackMaterials/New Material 11.mat
+  artifactKey: Guid(9e225ccee0b94074a8b897ce76b506ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/BlackMaterials/New Material 11.mat using Guid(9e225ccee0b94074a8b897ce76b506ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70890245103bfabfecacdf2d82152893') in 0.033383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/interier/New Material 18.mat
+  artifactKey: Guid(1c14a74e01207eb4693a17970d015a1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/interier/New Material 18.mat using Guid(1c14a74e01207eb4693a17970d015a1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '549b20b8de93c875fb9f9067b4af4a60') in 0.044968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/BlackMaterials/New Material 7.mat
+  artifactKey: Guid(f8adf661e6099d347b133d1171ad4290) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/BlackMaterials/New Material 7.mat using Guid(f8adf661e6099d347b133d1171ad4290) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8c60727f53ad644bb2d2813efa13058') in 0.014128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/BlackMaterials/New Material 13.mat
+  artifactKey: Guid(2caa865760a10b34a97f3ecfb5c111f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/BlackMaterials/New Material 13.mat using Guid(2caa865760a10b34a97f3ecfb5c111f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '782e9c689b8610f115934e08cf36d292') in 0.012954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Textures/interier/New Material 9.mat
+  artifactKey: Guid(e36882d4fc34a1e45b7db03f1c1ea859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/interier/New Material 9.mat using Guid(e36882d4fc34a1e45b7db03f1c1ea859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ecc9473c55f6a26c4bf787454cec015') in 0.074441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/interier/New Material 19.mat
+  artifactKey: Guid(24daeeb5c4efb95409e39acde6996848) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/interier/New Material 19.mat using Guid(24daeeb5c4efb95409e39acde6996848) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '268eb1e27fda1bc8aa2a74dd689b3acc') in 0.088752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Textures/Materials/mcdonalds_mds_v2beta_texture_23.png
+  artifactKey: Guid(856bb529afc9f7243990aaf3717e142e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Materials/mcdonalds_mds_v2beta_texture_23.png using Guid(856bb529afc9f7243990aaf3717e142e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2ab8c9f63cb7adacd08b2c063329be2') in 0.244224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Textures/Materials/mcdonalds_mds_v2beta_texture_38.png
+  artifactKey: Guid(ac13899ca8e5b1e4fb9d5c1f8a210e2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Materials/mcdonalds_mds_v2beta_texture_38.png using Guid(ac13899ca8e5b1e4fb9d5c1f8a210e2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a78cd305842b88e2f7829b4d0ddd5a70') in 0.105419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Textures/Kitchen/New Material 9.mat
+  artifactKey: Guid(9f9f2fc3fade6554aaa56408425c6eab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Kitchen/New Material 9.mat using Guid(9f9f2fc3fade6554aaa56408425c6eab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2c07983ff5c432afaaff3d8ac93eb90') in 0.069649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/Materials/mcdonalds_mds_v2beta_texture_3.png
+  artifactKey: Guid(f32d963590623c4409313399f1e345c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Materials/mcdonalds_mds_v2beta_texture_3.png using Guid(f32d963590623c4409313399f1e345c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e3906920773cbceaf95d670e687d210') in 0.057136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/Panels/Panel 9.mat
+  artifactKey: Guid(c783e71bb44aa3d44aa52edad21e6ead) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Panels/Panel 9.mat using Guid(c783e71bb44aa3d44aa52edad21e6ead) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4ce79f88bfab6a72f8adf390dc3302d6') in 0.052510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/Panels/mcdonalds_mds_v2beta_texture_29.png
+  artifactKey: Guid(0ba0916a4e019864fbe3c0de7d120221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Panels/mcdonalds_mds_v2beta_texture_29.png using Guid(0ba0916a4e019864fbe3c0de7d120221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d335b8398391a8dc067326ddbbefa5e') in 0.068312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Textures/Panels/mcdonalds_mds_v2beta_texture_28.png
+  artifactKey: Guid(27ec861c8b84b0f47bb2ae065e075123) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Panels/mcdonalds_mds_v2beta_texture_28.png using Guid(27ec861c8b84b0f47bb2ae065e075123) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41848c1e22e6533350fb4bcd9170ada5') in 0.068792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Textures/Panels/mcdonalds_mds_v2beta_texture_146.png
+  artifactKey: Guid(74da6233850186c49a7cfcb5b3c4109f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Panels/mcdonalds_mds_v2beta_texture_146.png using Guid(74da6233850186c49a7cfcb5b3c4109f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dca47869cc7dffb713b8ef686af5bda7') in 0.055668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/interier/mcdonalds_mds_v2beta_texture_0 вЂ” РєРѕРїРёСЏ.png
+  artifactKey: Guid(00176f6d2aaf6a54785bd09d300241bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/interier/mcdonalds_mds_v2beta_texture_0 вЂ” РєРѕРїРёСЏ.png using Guid(00176f6d2aaf6a54785bd09d300241bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '49432465cb44dce34f325993f35a3a64') in 0.030556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Textures/interier/mcdonalds_mds_v2beta_texture_51.png
+  artifactKey: Guid(617c6b9a7361222488826a7728ff080a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/interier/mcdonalds_mds_v2beta_texture_51.png using Guid(617c6b9a7361222488826a7728ff080a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '217ce93659dd1e2602f8d6691e9e4376') in 0.082870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002657 seconds.
+  path: Assets/Textures/Materials/shteka1.mat
+  artifactKey: Guid(8487e6d07803440459ea7c689659cceb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Materials/shteka1.mat using Guid(8487e6d07803440459ea7c689659cceb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef28356c394360535b1e909e5f9fa61f') in 0.018682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/Panels/Panel 1.mat
+  artifactKey: Guid(bf65cc9e5591a9b4daf0774b20171b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Panels/Panel 1.mat using Guid(bf65cc9e5591a9b4daf0774b20171b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9a56df06866c89ea23c9b20a7345831') in 0.020536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Textures/Doors/Door1 10.mat
+  artifactKey: Guid(cda3ffa26a6c6f344a512d9d858fc005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Doors/Door1 10.mat using Guid(cda3ffa26a6c6f344a512d9d858fc005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20c0b22b1391d6e1cc9d2a2869220d2d') in 0.057677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/Cars/mcdonalds_mds_v2beta_texture_133.png
+  artifactKey: Guid(591e247adcfe8e44b93ca5c069db39ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Cars/mcdonalds_mds_v2beta_texture_133.png using Guid(591e247adcfe8e44b93ca5c069db39ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fddf38a534a6bbc906dc8f32bec09bc1') in 0.050296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Textures/Restoran/mcdonalds_mds_v2beta_texture_7.png
+  artifactKey: Guid(265878ddc28975540a0dc29c66950f34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Restoran/mcdonalds_mds_v2beta_texture_7.png using Guid(265878ddc28975540a0dc29c66950f34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '150591bf96a9b1f2769784253d3bdc1f') in 0.057241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Textures/Plak/New Material 6.mat
+  artifactKey: Guid(e9b9e077dd3a8064f97a3bfe13ce5567) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Plak/New Material 6.mat using Guid(e9b9e077dd3a8064f97a3bfe13ce5567) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '051049d045ff8dfc23610892707487a3') in 0.029461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Textures/Restoran/Pomp.mat
+  artifactKey: Guid(9eb5afb5c282fce49bc7347a04114dce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Restoran/Pomp.mat using Guid(9eb5afb5c282fce49bc7347a04114dce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7495d6688bd503224438ce7ad5826440') in 0.038780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/Plak/mcdonalds_mds_v2beta_texture_101.png
+  artifactKey: Guid(f46f06ee82fcbf34898d88eb03b766cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Plak/mcdonalds_mds_v2beta_texture_101.png using Guid(f46f06ee82fcbf34898d88eb03b766cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02f4a8ca6b4998834fd44f19ea36ad31') in 0.114877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Textures/Plak/mcdonalds_mds_v2beta_texture_110.png
+  artifactKey: Guid(95edbc04e65e0a540b0cf51650880a0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Plak/mcdonalds_mds_v2beta_texture_110.png using Guid(95edbc04e65e0a540b0cf51650880a0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8190d91a5770c87a7494147001ef5304') in 0.067990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Textures/street/mcdonalds_mds_v2beta_texture_36.png
+  artifactKey: Guid(8fece9eb2a010294180e62ff753d4a64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/street/mcdonalds_mds_v2beta_texture_36.png using Guid(8fece9eb2a010294180e62ff753d4a64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1bb77928f10443caa36fd73f0a3565a1') in 0.068898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/Restoran/Roof2.mat
+  artifactKey: Guid(5133768b4af006d4981c76172af5233b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Restoran/Roof2.mat using Guid(5133768b4af006d4981c76172af5233b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '902513d2c9e59a8d3f358fa43ed5b379') in 0.059930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/Restoran/mcdonalds_mds_v2beta_texture_154.png
+  artifactKey: Guid(9c09c2b8f17a6694e954618c7fb6bc0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Restoran/mcdonalds_mds_v2beta_texture_154.png using Guid(9c09c2b8f17a6694e954618c7fb6bc0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e0d15c46df74e19dc628635acf21e81') in 0.064832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/Toilet/mcdonalds_mds_v2beta_texture_141.png
+  artifactKey: Guid(21dc787737053374384c0c17731e05b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Toilet/mcdonalds_mds_v2beta_texture_141.png using Guid(21dc787737053374384c0c17731e05b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12d496e02856483fec64a9631d92143f') in 0.053630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/mcdonalds_mds_v2beta_texture_98.png
+  artifactKey: Guid(d370ac69dd754804b9a9257a8ca8a0b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/mcdonalds_mds_v2beta_texture_98.png using Guid(d370ac69dd754804b9a9257a8ca8a0b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '436139d11a12f6d37eddc2abb0fa8c5e') in 0.085860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000774 seconds.
+  path: Assets/Textures/Doors/mcdonalds_mds_v2beta_texture_9.png
+  artifactKey: Guid(01174f48cb436d54d85af43c57236c1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Doors/mcdonalds_mds_v2beta_texture_9.png using Guid(01174f48cb436d54d85af43c57236c1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b56ab3873456067f7fa04af370632f6c') in 0.108949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Textures/Cars/Truck 3.mat
+  artifactKey: Guid(6b624dafc25820648be9d5458b039637) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Cars/Truck 3.mat using Guid(6b624dafc25820648be9d5458b039637) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cddcdb8c471e77b30850e951983cae02') in 0.028855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Textures/interier/New Material 10.mat
+  artifactKey: Guid(e1ac03469adcb9945b48af9df4613cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/interier/New Material 10.mat using Guid(e1ac03469adcb9945b48af9df4613cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b7bc7caa66478c078cefd10459497be') in 0.053720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Textures/Houses/House1.mat
+  artifactKey: Guid(3ad501833dc23c343b5a49b1fa14c252) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Houses/House1.mat using Guid(3ad501833dc23c343b5a49b1fa14c252) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '86b192fc710936cfdde3e235c78667c2') in 0.068057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Textures/Materials/mcdonalds_mds_v2beta_texture_91.png
+  artifactKey: Guid(c057293bb8ee336439eea5fb675276bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Materials/mcdonalds_mds_v2beta_texture_91.png using Guid(c057293bb8ee336439eea5fb675276bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c77bfa614e7883f743e64f86d961a16') in 0.064015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Textures/street/mcdonalds_mds_v2beta_texture_0.png
+  artifactKey: Guid(b5bea997378e0e348a223fef2d4b06a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/street/mcdonalds_mds_v2beta_texture_0.png using Guid(b5bea997378e0e348a223fef2d4b06a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b11258027654a6430d5af9185d575d77') in 0.034202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Textures/interier/New Material 4.mat
+  artifactKey: Guid(a3e19644f457e394e9490b0aea4f57e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/interier/New Material 4.mat using Guid(a3e19644f457e394e9490b0aea4f57e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1ff23b020a2583c0c3a7524701757a5') in 0.142580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Textures/Houses/New Material.mat
+  artifactKey: Guid(39616cb26d66a2f489f3b65dd3c8a9c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/Houses/New Material.mat using Guid(39616cb26d66a2f489f3b65dd3c8a9c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42385f433e53e71406ac303f77d0a69a') in 0.028037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
